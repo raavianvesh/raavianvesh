@@ -23,3 +23,19 @@
 * **My Contributions:**
   * Developed custom parsing algorithms in Python to sanitize millions of inputs per minute.
   * Containerized the application with Docker for seamless scaling across cloud environments.
+
+### 🚀 3. Collab-Verse (Monorepo & Web3 Ecosystem)
+* **Core Stack:** `Java`, `TypeScript`, `Solidity`, `SCSS`, `Shell`, `PLpgSQL`
+* **Language & Tech Distribution:**
+  - ![Java](https://img.shields.io/badge/Java-65.2%25-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+  - ![TypeScript](https://img.shields.io/badge/TypeScript-24.1%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  - ![Solidity](https://img.shields.io/badge/Solidity-%23363636?style=flat-square&logo=solidity&logoColor=white) **(Smart Contracts)**
+* **Architecture & Blockchain Services:**
+  - Designed as a highly scalable microservices architecture containing dedicated services for API Gateway, Authentication, Crawler, Identity Verification, and a secure decentralized **Wallet Management** service.
+  - Implements robust **Blockchain Technology** pipelines to securely handle smart contract interactions and token routing logic.
+  - Leverages a unified Kotlin DSL configuration (`build.gradle.kts`) to orchestrate dependency management across all sub-services.
+* **My Contributions:**
+  - Developed and audited secure **Solidity Smart Contracts** for decentralizing identity verification and wallet asset management.
+  - Engineered the multi-service backend architecture using Java to bridge the gap between traditional enterprise microservices and distributed ledger/blockchain networks.
+  - Developed the front-end user interface using TypeScript and structured modular SCSS stylesheets.
+  - Built shell automation scripts (`start-all.sh`) to containerize and spin up the complete local environment effortlessly.
