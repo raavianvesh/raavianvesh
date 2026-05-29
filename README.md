@@ -13,21 +13,20 @@
 *The source code for the following projects is proprietary/private, but here is a high-level overview of the tech stacks and engineering solutions I implemented:*
 
 ### 🚀 1. Enterprise Vertex Spring AI Integration
-* **Core Stack:** `Java 17`, `Spring Boot`, `Google Vertex AI`, `CSS3`
-* **What it does:** A secure backend middleware that integrates enterprise Spring applications with Vertex AI models for predictive data analysis.
+* **Core Stack:** `Java 21`, `Spring Boot`, `Google Vertex AI`, `localstack` , `aws`
+* **What it does:** A microservice that integrates enterprise Spring applications with Vertex AI in Google Cloud.
 * **My Contributions:** * Architected the AI service layer using Spring Boot.
-  * Designed a responsive, clean dashboard UI using modern CSS layouts.
-  * Optimized API token consumption to reduce data overhead by 20%.
+  * Developed GraphQL, REST API.
+  * Used Localstack along with terraform to simulate AWS S3 and DynamoDB storage.
 
 ### ⚙️ 2. Special Characters & Data Parsing Engine
-* **Core Stack:** `Python 3.11`, `RegEx`, `Docker`
-* **What it does:** A high-performance text processing pipeline used to sanitize, validate, and parse complex legacy data payloads containing diverse character encodings.
+* **Core Stack:** `Python 3.11`, `RegEx`, `Copilot SDK`
 * **My Contributions:**
-  * Developed custom parsing algorithms in Python to sanitize millions of inputs per minute.
-  * Containerized the application with Docker for seamless scaling across cloud environments.
+  * Developed custom dashboard in Python using embedded prompt and copilot SDK to detect invalid characters.
+  
 
 ### 🚀 3. Collab-Verse (Distributed Web3 & Microservices Ecosystem)
-* **Core Stack:** `Java (Reactive)`, `Spring Boot`, `Spring Security`, `React`, `TypeScript`, `Solidity`, `Apache Kafka`, `PLpgSQL`
+* **Core Stack:** `Java (Reactive)`, `Spring Boot`, `Spring Security`, `React`, `TypeScript`, `Solidity`, `Apache Kafka`, `PostgreSQL` , `Flyway`
 * **Architectural Paradigms & Patterns:**
   - **Domain-Driven Design (DDD):** Modeled complex business boundaries across segregated contexts (Identity, Wallet, Ingestion).
   - **Hexagonal Architecture (Ports & Adapters):** Isolated the core business domain from external framework dependencies, databases, and blockchain RPC clients.
